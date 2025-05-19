@@ -43,7 +43,7 @@ python
 
 ## Citation
 
-If you find DRGQA useful in your research, please consider citing:
+If you find TRG-DQA useful in your research, please consider citing:
 
 ```
 @InProceedings{10222233,
