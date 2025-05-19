@@ -18,3 +18,50 @@ Performance comparison on real DQA databases:
 
 Performance comparison on synthetic DQA databases:
 ![syn_DQA_databases](resources/syn_DQA_databases.png)
+
+## Environment Setup
+
+For this project, we used python 3.8. We recommend setting up a new virtual environment:
+
+```shell
+python -m venv ~/venv/trg
+source ~/venv/trg/bin/activate
+```
+
+In that environment, the requirements can be installed with:
+
+```shell
+pip install -r requirements.txt
+```
+
+All experiments were executed on an NVIDIA GeForce RTX 3090.
+
+## Training
+```shell
+python
+```
+
+## Citation
+
+If you find DRGQA useful in your research, please consider citing:
+
+```
+@InProceedings{10222233,
+  author={Zeng, Tiantian and Zhang, Lu and Zou, Wenbin and Li, Xia and Tian, Shishun},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  title={TRG-DQA: Texture Residual-Guided Dehazed Image Quality Assessment}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={3075-3079},
+  keywords={Image quality;Databases;Visual impairment;Semantics;Feature extraction;Distortion;Transformers;Dehazed image quality assessment;Texture residual;Distortion-aware feature;CNN;Transformer},
+  doi={10.1109/ICIP49359.2023.10222233}}
+```
+
+## Acknowledgements
+
+TRG-DQA is based on the following open-source projects. We thank the authors for making the source code publicly available.
+
+* [Conformer](github.com/pengzhiliang/Conformer)
+* [VCRNet](https://github.com/NUIST-Videocoding/VCRNet)
+
