@@ -38,7 +38,7 @@ All experiments were executed on an NVIDIA GeForce RTX 3090.
 
 ## Training
 ```shell
-python
+python train-test-TRG.py
 ```
 
 ## Citation
