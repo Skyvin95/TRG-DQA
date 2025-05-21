@@ -89,7 +89,7 @@ def test(net, epoch):
     plt.xlabel('Objective scores')
     plt.ylabel('MOS')
     plt.plot(x, func1(x, *fit_paras), "red")
-    plt.savefig('/home/TRG-DQA-master/Figures/' + str(epoch) + '.png')  # ...
+    plt.savefig('/home/TRG-DQA-master/Figures/' + str(epoch) + '.png') 
     plt.show()
     plt.pause(2)
     plt.close()
