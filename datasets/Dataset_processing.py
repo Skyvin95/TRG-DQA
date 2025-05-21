@@ -52,16 +52,6 @@ class Dataset(Dataset):
         residual_tex = abs(Dehazed_lbp - Haze_lbp)
         residual_tex = self.transform(residual_tex).cuda()
 
-        # color residual map
-        Haze_img_YCbCr = cv2.cvtColor(np.array(Haze_img_resized), cv2.COLOR_RGB2YCrCb)
-        Haze_Y, Haze_Cr, Haze_Cb = cv2.split(Haze_img_YCbCr)
-        Haze_CBR = Haze_Cb + Haze_Cr
-        Dehazed_img_YCbCr = cv2.cvtColor(np.array(Dehazed_img_resized), cv2.COLOR_RGB2YCrCb)
-        Dehazed_Y, Dehazed_Cr, Dehazed_Cb = cv2.split(Dehazed_img_YCbCr)
-        Dehazed_CBR = Dehazed_Cb + Dehazed_Cr
-        residual_color = abs(Dehazed_CBR - Haze_CBR)
-        residual_color = self.transform(residual_color).cuda()
-
         mos = self.MOS[idx]
 
-        return Haze_img, Dehazed_img, residual_tex, residual_color, mos
+        return Haze_img, Dehazed_img, residual_tex, mos
