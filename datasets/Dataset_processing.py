@@ -25,7 +25,7 @@ data['MOS'] = matdata['MOS'].flatten()
 r = 1
 n = 8 * r
 
-class Dataset_train(Dataset):
+class Dataset(Dataset):
     def __init__(self):
         self.Haze_imgs = data['Haze_name']
         self.Dehazed_imgs = data['Dehaze_name']
