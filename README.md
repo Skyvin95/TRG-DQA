@@ -34,7 +34,7 @@ In that environment, the requirements can be installed with:
 pip install -r requirements.txt
 ```
 
-All experiments were executed on an NVIDIA GeForce RTX 3090.
+All experiments were executed on an RTX 2080Ti GPU.
 
 ## Training
 ```shell
