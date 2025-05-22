@@ -62,6 +62,6 @@ If you find TRG-DQA useful in your research, please consider citing:
 
 TRG-DQA is based on the following open-source projects. We thank the authors for making the source code publicly available.
 
-* [Conformer](github.com/pengzhiliang/Conformer)
+* [Conformer](https://github.com/pengzhiliang/Conformer)
 * [VCRNet](https://github.com/NUIST-Videocoding/VCRNet)
 
