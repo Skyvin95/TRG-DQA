@@ -19,7 +19,7 @@ Performance comparison on real DQA databases:
 Performance comparison on synthetic DQA databases:
 ![syn_DQA_databases](resources/syn_DQA_databases.png)
 
-## Environment Setup
+## Setup Environment
 
 For this project, we used python 3.8. We recommend setting up a new virtual environment:
 
