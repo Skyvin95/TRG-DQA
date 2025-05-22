@@ -1,0 +1,12 @@
+PIL
+timm
+torch
+scipy
+numpy
+skimage
+logging
+matplotlib
+torchvision
+tensorboardX
+opencv-python
+antialiased_cnns
