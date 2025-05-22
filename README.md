@@ -1,6 +1,6 @@
 # TRG-DQA: Texture Residual-Guided Dehazed Image Quality Assessment
 
-**by [Tiantian Zeng](https://scholar.google.com.hk/citations?user=gemAtrkAAAAJ&hl=zh-CN), [Lu Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=BCzhwesAAAAJ&view_op=list_works&sortby=pubdate), [Wenbin Zou](https://scholar.google.com.hk/citations?user=J8-OQCIAAAAJ&hl=zh-CN), Xia Li, and [Shishun Tian](https://scholar.google.com.hk/citations?user=gk8puWMAAAAJ&hl=zh-CN)**
+**by [Tiantian Zeng](https://scholar.google.com.hk/citations?user=gemAtrkAAAAJ&hl=zh-CN), [Lu Zhang](https://scholar.google.com.hk/citations?hl=zh-CN&user=BCzhwesAAAAJ&view_op=list_works&sortby=pubdate), [Wenbin Zou](https://scholar.google.com.hk/citations?user=J8-OQCIAAAAJ&hl=zh-CN), Xia Li, and [Shishun Tian*](https://scholar.google.com.hk/citations?user=gk8puWMAAAAJ&hl=zh-CN)**
 
 **[[ICIP2023 Paper]](https://ieeexplore.ieee.org/abstract/document/10222233)**
 
